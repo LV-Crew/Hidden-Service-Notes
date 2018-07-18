@@ -1,11 +1,14 @@
-# Tor-Notes
-Some Tor Notes...  
+# Hidden-Service-Notes  
+Some Hidden Service Notes...  
 
 # General  
 You can also use a Tor or I2P hidden service. If you use a hidden service, everything is encrypted and you also don't need dynamic DNS because you can reach your .onion or .i2p address from anywhere automatically. Hidden services also have much larger networks and more redundancy than using a VPN. For example, if ProtonVPN has a network problem or they are doing maintenance or their service is down, it means you will not be able to access your server. You can always access a hidden service. I like I2P because it's more secure, but the problem is not as many people use it as Tor so the I2P network is slower because it has less nodes. But it also depends on where you live, so maybe more people use I2P in Germany, I don't know. Where I live nobody uses I2P in my entire country, so the network is not efficient at all. If more people used I2P, it has the capability to be much faster than Tor.  
 
 I2P is also much easier to configure and comes with a web GUI. Here are some configs for Tor though.  
 
+<br>
+
+# Tor-Notes Windows  
 First, for a Tor hidden service, I recommend installing Tor as a service on your machine. Personally I like to put as few options as possible and control everything with the config file. In the below command, XXX is the path to your Tor config file.
 tor --service install -options -f C:\Users\XXX  
 
@@ -28,5 +31,15 @@ https://www.torproject.org/docs/tor-onion-service
 
 <br>
 
-# Linux  
+# Tor-Notes Linux  
+Follows...  
+
+<br>
+
+# I2P-Notes Windows  
+Follows...  
+
+<br>
+
+# I2P-Notes Linux  
 Follows...  
